@@ -16,7 +16,6 @@ let Usuario = class Usuario {
     nome;
     email;
     password;
-    token;
 };
 exports.Usuario = Usuario;
 __decorate([
@@ -35,10 +34,6 @@ __decorate([
     (0, typeorm_1.Column)(),
     __metadata("design:type", String)
 ], Usuario.prototype, "password", void 0);
-__decorate([
-    (0, typeorm_1.Column)(),
-    __metadata("design:type", String)
-], Usuario.prototype, "token", void 0);
 exports.Usuario = Usuario = __decorate([
-    (0, typeorm_1.Entity)("usuario")
+    (0, typeorm_1.Entity)("usuarios")
 ], Usuario);

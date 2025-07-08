@@ -14,6 +14,4 @@ export class Usuario{
     @Column()
     password!: string;
 
-    @Column()
-    token!: string;
 }
